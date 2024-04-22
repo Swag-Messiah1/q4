@@ -1,5 +1,4 @@
-
-# -*- coding: utf-8 -*-
+#(STILL WORKING ON LEARNING THE FORMAT (CSV)
 """
 Quarter 4 Project Code
 
@@ -7,6 +6,18 @@ Quarter 4 Project Code
 
 '''
 use append to add to a list - we need to sort list tho
+'''
+import csv
+
+scoresList = open("path", "r")
+
+csvReader = csv.reader(scoresList)
+header = csvReader.next()
+stadiumIndex = header.index("Stadium")
+teamIndex = header.index("Team")
+goalsagainstIndex = header.index("GoalsAgainst")
+goalsforIndex = header.index("Goalsfor")
+
 '''
 
 serie_a_teams = {
@@ -85,6 +96,14 @@ def Frosinone():
     
 def Cagliari():
     
+    
+def Sassoulo():
+    
+    
+def Salernitana():
+    
+    
+'''    
     
 def Sassoulo():
     
