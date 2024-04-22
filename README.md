@@ -1,6 +1,5 @@
 # q4
 Quarter 4 Project - Serie A Standings Simulator
 
-#I will make a list containing all of the team names in the league
-  #then make the teams that are better to have a higher percentage of winning games
-#I will make it so a while statement
+#I will make a list containing all of the team names in the league - it will be put in a formated standings chart using real life data. 
+#Possibly make a way to import results into the chart and make the chart change
