@@ -17,32 +17,34 @@ stadiumIndex = header.index("Stadium")
 teamIndex = header.index("Team")
 goalsagainstIndex = header.index("GoalsAgainst")
 goalsforIndex = header.index("Goalsfor")
+# -*- coding: utf-8 -*-
+"""
+Quarter 4 Project Code
+
+"""
 
 '''
+use append to add to a list - we need to sort list tho
+'''
 
-serie_a_teams = {
-    Juventus,
-    Inter,
-    AC_Milan,
-    Roma,
-    Napoli,
-    Bolonga,
-    Torino,
-    Fiorentina,
-    Lecce,
-    Frosinone,
-    Cagliari,
-    Salernitana,
-    Sassoulo,
-    Udinese,
-    Lazio,
-    Monza,
-    Hellas_Verona,
-    Atalanta,
-    Genoa,
-    Empoli,
-    }
+'''
+import pandas as pd
 
+d = {'Team': [1, 2, 3, 4, 7], 'PTS': [14, 10, 9, 6, 5], 'GD': [7, 8, 12, 1, 11]}
+
+df = pd.DataFrame(data=d)
+
+print(df)
+
+'''
+import pandas as pd
+
+chart = {'|-----Team------|': ['Juventus', 'Inter Milan', 'AC Milan', 'AS Roma', 'Lazio'], '|PTS|': [14, 10, 9, 6, 5], '|GD|': [7, 8, 12, 1, 11]}
+
+standings_chart = pd.DataFrame(data=chart)
+
+print(standings_chart)
+'''
 def Juventus():
 
     
@@ -102,10 +104,24 @@ def Sassoulo():
     
 def Salernitana():
     
-    
+    Juventus,
+    Inter,
+    AC_Milan,
+    Roma,
+    Napoli,
+    Bolonga,
+    Torino,
+    Fiorentina,
+    Lecce,
+    Frosinone,
+    Cagliari,
+    Salernitana,
+    Sassoulo,
+    Udinese,
+    Lazio,
+    Monza,
+    Hellas_Verona,
+    Atalanta,
+    Genoa,
+    Empoli,   
 '''    
-    
-def Sassoulo():
-    
-    
-def Salernitana():
