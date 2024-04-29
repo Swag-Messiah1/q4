@@ -9,7 +9,7 @@ b) Possibly then make a way to import results into the chart and make the chart 
 
 ---
 
-a) I have been learning to use the data frame, Pandas, through online toterial videos and using W3Schools (from 4/24-current). I will finished learning by 4/29. 
+a) I have been learning to use the data frame, Pandas, through online toterial videos and using W3Schools (from 4/24-current). I will finished learning by 5/1. 
 
 b) I will learn to used a CSV reader after the chart has been developed through the CSV data frame, Pandas
 
