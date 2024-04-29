@@ -3,24 +3,6 @@
 Quarter 4 Project Code
 
 """
-
-'''
-use append to add to a list - we need to sort list tho
-'''
-import csv
-
-scoresList = open("path", "r")
-
-csvReader = csv.reader(scoresList)
-header = csvReader.next()
-stadiumIndex = header.index("Stadium")
-teamIndex = header.index("Team")
-goalsagainstIndex = header.index("GoalsAgainst")
-goalsforIndex = header.index("Goalsfor")
-# -*- coding: utf-8 -*-
-"""
-Quarter 4 Project Code
-
 """
 
 '''
@@ -39,70 +21,17 @@ print(df)
 '''
 import pandas as pd
 
-chart = {'|-----Team------|': ['Juventus', 'Inter Milan', 'AC Milan', 'AS Roma', 'Lazio'], '|PTS|': [14, 10, 9, 6, 5], '|GD|': [7, 8, 12, 1, 11]}
+chart = {'|-----Team------|': ['Juventus', 'Inter', 'AC Milan', 'AS Roma', 'Lazio', 'Napoli', 'Genoa', 'Empoli','Lecce','Bolonga','Frosinone','Fiorentina', 'Atlanta','Hellas Verona','Torino', 'Monza','Sassoulo','Udinese','Salernitana','Cagliari', ], '|PTS|': [14, 10, 9, 6, 5, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 5, 7, 8, 9, 20], '|GD|': [7, 8, 12, 1, 11, 1, 3, 4, 5, 6, 6, 7, 23, 5, 2, 4, 5, 23, 4, 2]}
 
 standings_chart = pd.DataFrame(data=chart)
 
 print(standings_chart)
+
+row_count = standings_chart.shape[0]
+
+print('\n' + "Number of teams:")
+print(row_count)
 '''
-def Juventus():
-
-    
-def Inter():
-
-    
-def AC_Milan():
-
-    
-def Roma():
-
-    
-def Napoli():
-
-    
-def Atalanta():
-
-    
-def Lazio():
-
-    
-def Bolonga():
-
-    
-def Fiorentina():
-
-    
-def Genoa():
-
-    
-def Monza():
-
-    
-def Torino():
-
-    
-def Udinese():
-
-    
-def Lecce():  
-    
-    
-def Hellas_Verona():
-
-    
-def Empoli():
-    
-    
-def Frosinone():
-    
-    
-def Cagliari():
-    
-    
-def Sassoulo():
-    
-    
-def Salernitana():
     
     Juventus,
     Inter,
@@ -125,3 +54,5 @@ def Salernitana():
     Genoa,
     Empoli,   
 '''    
+
+
