@@ -1,6 +1,7 @@
 # q4
 Quarter 4 Project - Serie A Standings Simulator
 
+-UPDATED LAST 11:00 AM - 5/7/24-
 
 
 a) I will make a list containing all of the team names in the league - it will be put in a formated standings chart using real life data. (pretty much done ✔️)
