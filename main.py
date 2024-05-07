@@ -13,6 +13,7 @@ use append to add to a list - we need to sort list tho
 import pandas as pd
 #import matplotlib.pyplot as plt <-- possile way to import excel sheet into code.
 #    df = pd.read_csv("C:\\Users\\_____\\Downloads\\_____.csv")
+# also could use : C:\Users\samue\OneDrive\Documents
 
 d = {'Team': [1, 2, 3, 4, 7], 'PTS': [14, 10, 9, 6, 5], 'GD': [7, 8, 12, 1, 11]}
 
