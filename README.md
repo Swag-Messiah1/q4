@@ -1,7 +1,7 @@
 # q4
 Quarter 4 Project - Serie A Standings Simulator
 
--UPDATED LAST 11:54 AM - 5/13/24-
+-UPDATED LAST 11:51 AM - 5/17/24-
 
 
 a) I will make a list containing all of the team names in the league - it will be put in a formated standings chart using real life data. (pretty much done ✔️)
@@ -9,6 +9,8 @@ a) I will make a list containing all of the team names in the league - it will b
 b) Be able to edit excel sheet data through python code
 
 c) Then I will make a way to import results into the spredsheet to make the chart change.
+
+d) Add in Ascii Art for design.
 
 ---
 
@@ -26,6 +28,7 @@ d) I will code a way to import results into the chart/spreadsheet, altering the 
 2. The new data from a excel spreadsheet will be imported into the chart by May 10th (changing the prior chart). (DONE ✔️)
 3. Be able to edit excel sheet data through python code by May 16th
 4. The feature of creating a way to continusely import data will be done by End of May to early June
+5. ADD IN ASCII ART (Any point before final presentation)
 
 
 
