@@ -6,26 +6,35 @@ Quarter 4 Project Code
 '''
 use append to add to a list - we need to sort list tho
 '''
+
 import pandas as pd
 
 
-path = r"C:\Users\samue\Downloads\Q4 FInal Spreadsheet Data - For Project.xlsx"
+path = r"C:\Users\samue\Downloads\---.xlsx"
+#r"C:\Users\samue\Downloads\Q4 FInal Spreadsheet Data - For Project.xlsx"
 #r"C:\Users\samue\OneDrive\Documents\Q4 Project Data Sheet.xlsx" <-- Path for excel sheet on OneDrive :
 #   Claims permission denied.
 
 data = pd.read_excel(path)
 
 # updating the column value/data 
-data['MP'] = data['MP'].replace({12:13}) 
+
+data['MP'] = data['MP'].replace({12:14}) 
   
+
 # writing into the file 
-data.to_csv(r"C:\Users\samue\Downloads\Q4 FInal Spreadsheet Data - For Project.xlsx", index=False) 
+data.to_csv(r"C:\Users\samue\Downloads\Q4 Project Excel Data Spreadsheet.xlsx", index=False) 
 
 print(data)
 
-matches_played = data.MP
-goal_difference = data.GD
-total_points = data.PTS
+#matches_played = data.MP
+#goal_difference = data.GD
+#total_points = data.PTS
+
+#while True:
+    
+  #  chart_change = input(": ")
+
 
 #while True:
     
