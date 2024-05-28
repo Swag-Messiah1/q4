@@ -8,7 +8,8 @@ use append to add to a list - we need to sort list tho
 '''
 
 import pandas as pd
-
+from openpyxl.utils.dataframe import dataframe_to_rows
+from openpyxl open load_workbook
 
 path = r"C:\Users\samue\Downloads\---.xlsx"
 #r"C:\Users\samue\Downloads\Q4 FInal Spreadsheet Data - For Project.xlsx"
@@ -16,6 +17,15 @@ path = r"C:\Users\samue\Downloads\---.xlsx"
 #   Claims permission denied.
 
 data = pd.read_excel(path)
+data2 = {
+    "CLUB":['Juventus', 'Inter', 'AC Milan', 'AS Roma', 'Lazio', 'Napoli', 'Genoa', 'Empoli','Lecce','Bolonga','Frosinone','Fiorentina', 'Atlanta','Hellas Verona','Torino', 'Monza','Sassoulo','Udinese','Salernitana','Cagliari'],
+    "PTS":[46,50,43,41,40,32,12,16,21,54,32,21,32,41,44,54,29,70,7,35],
+    "GD":[],
+    "MP":[15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15]
+    
+    }
+dataframe2=pd.DataFrame(data2)
+print (dataframe2)
 
 # updating the column value/data 
 
