@@ -146,8 +146,8 @@ while True:
         print ("You have stopped the Serie A Standings Chart Directory!")
         break
   
-
-   
+# writing into the excel spreadsheet file 
+data.to_csv(r"C:\Users\samue\Downloads\---.xlsx", index=False)  
 
 
 '''
